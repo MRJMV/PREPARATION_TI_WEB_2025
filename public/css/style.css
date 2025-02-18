@@ -1,10 +1,22 @@
-nav {
-  display: inline;
-  font-size: xx-large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
+#navbar {
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 ul {
@@ -55,7 +67,7 @@ div {
 }
 
 footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

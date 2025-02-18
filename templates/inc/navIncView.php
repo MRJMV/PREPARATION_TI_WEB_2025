@@ -1,4 +1,4 @@
-<ul>
+<ul id=navbar>
     </li>
         <a href="./?=accueil">Accueil</a>
     </li>

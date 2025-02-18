@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Conclusion</title>
+    <title><?= $title ?></title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -14,6 +14,9 @@
             ?>
         </nav>
     </header>
+    <h1>
+        <?= $title ?>
+    </h1>
     <section>
         <div>
             <form action="">
